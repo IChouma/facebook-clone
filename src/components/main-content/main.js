@@ -62,9 +62,9 @@ class  Main extends Component  {
             <div className="post-input-container">
                 <textarea  rows="3" placeholder="what's your mind, Jhon?"></textarea>
                 <div className="add-post-links">
-                    <a href=""><img src={video} />Live Video</a>
-                    <a href=""><img src={photo} />Photo/Video</a>
-                    <a href=""><img src={feeling} />Feeling/Activities</a>
+                    <a href={"#"}><img src={video} />Live Video</a>
+                    <a href={"#"}><img src={photo} />Photo/Video</a>
+                    <a href={"#"}><img src={feeling} />Feeling/Activities</a>
                 </div>
             </div>
 
@@ -78,12 +78,12 @@ class  Main extends Component  {
                     <span>June 24 2022, 08:30</span>
                 </div>
             </div>
-            <a href=""><i className='fas fa-caret-down'></i></a>
+            <a href={"#"}><i className='fas fa-caret-down'></i></a>
             </div>
             
             <p className='post-text'>Subscribe <span>@Easy Tutorials</span> Youtube Channel to watch more videos
                  on websites devleppement and UI design.
-                 <a href="">#EasyTutorials</a> <a href=""> #YoutubeChannel</a></p>
+                 <a href={"#"}>#EasyTutorials</a> <a href=""> #YoutubeChannel</a></p>
                  <img src={feedimage1} className='post-img' />
                  <div className="post-row">
                     <div className="acitity-icons">
@@ -105,12 +105,12 @@ class  Main extends Component  {
                     <span>June 24 2022, 08:30</span>
                 </div>
             </div>
-            <a href=""><i className='fas fa-caret-down'></i></a>
+            <a href={"#"}><i className='fas fa-caret-down'></i></a>
             </div>
             
             <p className='post-text'>Subscribe <span>@Easy Tutorials</span> Youtube Channel to watch more videos
                  on websites devleppement and UI design.
-                 <a href="">#EasyTutorials</a> <a href=""> #YoutubeChannel</a></p>
+                 <a href={"#"}>#EasyTutorials</a> <a href=""> #YoutubeChannel</a></p>
                  <img src={feedimage2} className='post-img' />
                  <div className="post-row">
                     <div className="acitity-icons">
@@ -132,12 +132,12 @@ class  Main extends Component  {
                     <span>June 24 2022, 08:30</span>
                 </div>
             </div>
-            <a href=""><i className='fas fa-caret-down'></i></a>
+            <a href={"#"}><i className='fas fa-caret-down'></i></a>
             </div>
             
             <p className='post-text'>Subscribe <span>@Easy Tutorials</span> Youtube Channel to watch more videos
                  on websites devleppement and UI design.
-                 <a href="">#EasyTutorials</a> <a href=""> #YoutubeChannel</a></p>
+                 <a href={"#"}>#EasyTutorials</a> <a href=""> #YoutubeChannel</a></p>
                  <img src={feedimage3} className='post-img' />
                  <div className="post-row">
                     <div className="acitity-icons">
@@ -159,12 +159,12 @@ class  Main extends Component  {
                     <span>June 24 2022, 08:30</span>
                 </div>
             </div>
-            <a href=""><i className='fas fa-caret-down'></i></a>
+            <a href={"#"}><i className='fas fa-caret-down'></i></a>
             </div>
             
             <p className='post-text'>Subscribe <span>@Easy Tutorials</span> Youtube Channel to watch more videos
                  on websites devleppement and UI design.
-                 <a href="">#EasyTutorials</a> <a href=""> #YoutubeChannel</a></p>
+                 <a href={"#"}>#EasyTutorials</a> <a href=""> #YoutubeChannel</a></p>
                  <img src={feedimage4} className='post-img' />
                  <div className="post-row">
                     <div className="acitity-icons">
@@ -191,7 +191,7 @@ class  Main extends Component  {
             
             <p className='post-text'>Subscribe <span>@Easy Tutorials</span> Youtube Channel to watch more videos
                  on websites devleppement and UI design.
-                 <a href="">#EasyTutorials</a> <a href=""> #YoutubeChannel</a></p>
+                 <a href={"#"}>#EasyTutorials</a> <a href=""> #YoutubeChannel</a></p>
                  <img src={feedimage5} className='post-img' />
                  <div className="post-row">
                     <div className="acitity-icons">

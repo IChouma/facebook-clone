@@ -69,7 +69,7 @@ class  Nav extends Component {
                 <img src={profilepic} />
                 <div>
                     <p>Jhon Nicholson</p>
-                    <a href="">See your pfofile</a>
+                    <a href={"#"}>See your pfofile</a>
                 </div>
             </div>
             <hr />
@@ -77,25 +77,25 @@ class  Nav extends Component {
                 <img src={feedbackimg} />
                 <div>
                     <p>Give Feedback</p>
-                    <a href="">Help us to improve the new design</a>
+                    <a href={"#"}>Help us to improve the new design</a>
                 </div>
             </div>
             <hr />
             <div className="settings-links">
               <img src={setting} className='settings-icon' />
-              <a href="">Settings & Privacy <img src={arrow} width="10px"  /></a>
+              <a href={"#"}>Settings & Privacy <img src={arrow} width="10px"  /></a>
             </div>
             <div className="settings-links">
               <img src={help} className='settings-icon' />
-              <a href="">Help & Support <img src={arrow} width="10px"  /></a>
+              <a href={"#"}>Help & Support <img src={arrow} width="10px"  /></a>
             </div>
             <div className="settings-links">
               <img src={display} className='settings-icon' />
-              <a href="">Display & Accessibility <img src={arrow} width="10px"  /></a>
+              <a href={"#"}>Display & Accessibility <img src={arrow} width="10px"  /></a>
             </div>
             <div className="settings-links">
               <img src={logout} className='settings-icon' />
-              <a href="">Lougout <img src={arrow} width="10px"  /></a>
+              <a href={"#"}>Lougout <img src={arrow} width="10px"  /></a>
             </div>
         </div>
        
