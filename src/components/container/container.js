@@ -23,12 +23,11 @@ import member3 from '../../images/member-3.png'
   return (
     <Fragment>
      <div id='container' className='container'>
-         {/* ------------left-sidebar ---------------*/}
          <div className='left-sidebar'>
              <div className='imp-links'>
-                 <a href={"#container"} > <img src={news} alt=""/><Latest News</a>
+                 <a href={"#container"} > <img src={news} alt=""/>Latest News</a>
                  <a href={"#container"} > <img src={friends}alt=""/>Friends</a>
-                 <a href={"#container"} > <img src={group} alt="">Group</a>
+                 <a href={"#container"} > <img src={group} alt=""/>Group</a>
                  <a href={"#container"} > <img src={marketplace} alt=""/>Market Place</a>
                  <a href={"#container"} > <img src={watch} alt=""/>Watch</a>
                  <a href={"#container"} >See More</a>
