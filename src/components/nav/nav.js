@@ -29,7 +29,7 @@ class  Nav extends Component {
     
   }
   handlclick(){
-    const nui=document.querySelector('.nav-user-icon')
+    // const nui=document.querySelector('.nav-user-icon')
     const nuii=document.querySelector('.sttings-menu')
     nuii.classList.toggle('sttingshhh')
   }
@@ -38,13 +38,13 @@ class  Nav extends Component {
 
     return (
     <Fragment>
-   <nav>
+   <nav id='nav'>
       <div className='nav-left'>
         <img src={logo} className='logo'></img>
         <ul>
-          <li><img src={notification}></img></li>
-          <li><img src={inbox}></img></li>
-          <li><img src={video}></img></li>
+          <li><img src={notification} alt=""/></li>
+          <li><img src={inbox} alt=""/></li>
+          <li><img src={video} alt=""/></li>
         </ul>
       </div>
       <div className='nav-right'>
@@ -53,7 +53,7 @@ class  Nav extends Component {
           <input type='text' placeholder='Search'></input>
         </div>
         <div className='nav-user-icon online' onClick={this.handlclick.bind(this)} >
-          <img src={profilepic}></img>
+          <img src={profilepic} alt=""/>
         </div>
       </div>
 {/*---------- settings-menu-------- */}
@@ -66,36 +66,36 @@ class  Nav extends Component {
 
         <div className="settings-menu-inner">
             <div className="user-profile">
-                <img src={profilepic} />
+                <img src={profilepic} alt="" />
                 <div>
                     <p>Jhon Nicholson</p>
-                    <a href={"#"}>See your pfofile</a>
+                    <a href={"#nav"}>See your profile</a>
                 </div>
             </div>
             <hr />
          <div className="user-profile">
-                <img src={feedbackimg} />
+                <img src={feedbackimg} alt="" />
                 <div>
                     <p>Give Feedback</p>
-                    <a href={"#"}>Help us to improve the new design</a>
+                    <a href={"#nav"}>Help us to improve the new design</a>
                 </div>
             </div>
             <hr />
             <div className="settings-links">
-              <img src={setting} className='settings-icon' />
-              <a href={"#"}>Settings & Privacy <img src={arrow} width="10px"  /></a>
+              <img src={setting} className='settings-icon' alt="" />
+              <a href={"#nav"}>Settings & Privacy <img src={arrow} width="10px" alt="" /></a>
             </div>
             <div className="settings-links">
-              <img src={help} className='settings-icon' />
-              <a href={"#"}>Help & Support <img src={arrow} width="10px"  /></a>
+              <img src={help} className='settings-icon' alt="" />
+              <a href={"#nav"}>Help & Support <img src={arrow} width="10px" alt="" /></a>
             </div>
             <div className="settings-links">
-              <img src={display} className='settings-icon' />
-              <a href={"#"}>Display & Accessibility <img src={arrow} width="10px"  /></a>
+              <img src={display} className='settings-icon'  alt=""/>
+              <a href={"#nav"}>Display & Accessibility <img src={arrow} width="10px" alt="" /></a>
             </div>
             <div className="settings-links">
-              <img src={logout} className='settings-icon' />
-              <a href={"#"}>Lougout <img src={arrow} width="10px"  /></a>
+              <img src={logout} className='settings-icon' alt=""/>
+              <a href={"#nav"}>Lougout <img src={arrow} width="10px" alt="" /></a>
             </div>
         </div>
        

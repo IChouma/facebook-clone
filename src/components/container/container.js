@@ -22,23 +22,23 @@ import member3 from '../../images/member-3.png'
     render(){
   return (
     <Fragment>
-     <div className='container'>
+     <div id='container' className='container'>
          {/* ------------left-sidebar ---------------*/}
          <div className='left-sidebar'>
              <div className='imp-links'>
-                 <a href={"#"} > <img src={news}></img>Latest News</a>
-                 <a href={"#"} > <img src={friends}></img>Friends</a>
-                 <a href={"#"} > <img src={group}></img>Group</a>
-                 <a href={"#"} > <img src={marketplace}></img>Market Place</a>
-                 <a href={"#"} > <img src={watch}></img>Watch</a>
-                 <a href={"#"} >See More</a>
+                 <a href={"#container"} > <img src={news} alt=""/><Latest News</a>
+                 <a href={"#container"} > <img src={friends}alt=""/>Friends</a>
+                 <a href={"#container"} > <img src={group} alt="">Group</a>
+                 <a href={"#container"} > <img src={marketplace} alt=""/>Market Place</a>
+                 <a href={"#container"} > <img src={watch} alt=""/>Watch</a>
+                 <a href={"#container"} >See More</a>
              </div>
              <div className='shortcut-links'>
                  <p>Your Shortcuts</p>
-                 <a href={"#"}><img src={shortcut1}></img>Web Developpers</a>
-                 <a href={"#"}><img src={shortcut2}></img>Web Design course</a>
-                 <a href={"#"}><img src={shortcut3}></img>Full stack Developpement</a>
-                 <a href={"#"}><img src={shortcut4}></img>Website Experts</a>
+                 <a href={"#container"}><img src={shortcut1} alt=""/>Web Developpers</a>
+                 <a href={"#container"}><img src={shortcut2} alt=""/>Web Design course</a>
+                 <a href={"#container"}><img src={shortcut3} alt=""/>Full stack Developpement</a>
+                 <a href={"#container"}><img src={shortcut4} alt=""/>Website Experts</a>
              </div>
          </div>
          {/* ------------main-content ---------------*/}
@@ -49,7 +49,7 @@ import member3 from '../../images/member-3.png'
          <div className='right-sidebar'>
              <div className="sidebar-title">
                 <h4>Events</h4>
-                <a href={"#"}>See All</a>
+                <a href={"#container"}>See All</a>
              </div>
              <div className="event">
                     <div className="left-event">
@@ -59,7 +59,7 @@ import member3 from '../../images/member-3.png'
                     <div className="rigth-event">
                         <h4>Social Media</h4>
                         <p><i className="fas fa-map-marker-alt"></i>Willson Tach Park</p>
-                        <a href={"#"}>More info</a>
+                        <a href={"#container"}>More info</a>
                 </div>
              </div>
              <div className="event">
@@ -70,17 +70,17 @@ import member3 from '../../images/member-3.png'
                     <div className="rigth-event">
                         <h4>Mobile Marketing</h4>
                         <p><i className="fas fa-map-marker-alt"></i>Willson Tach Park</p>
-                        <a href={"#"}>More info</a>
+                        <a href={"#container"}>More info</a>
                 </div>
              </div>
              <div className="sidebar-title">
                 <h4>Advrtisement</h4>
-                <a href={"#"}>Close</a>
+                <a href={"#container"}>Close</a>
              </div>
              <img src={Advertisement} className="sidebar-ads" />
               <div className="sidebar-title">
                 <h4>Conversation</h4>
-                <a href={"#"}>Hide Chat</a>
+                <a href={"#container"}>Hide Chat</a>
              </div>
              <div className="online-list">
                 <div className="online">
