@@ -76,7 +76,7 @@ import member3 from '../../images/member-3.png'
                 <h4>Advrtisement</h4>
                 <a href={"#container"}>Close</a>
              </div>
-             <img src={Advertisement} className="sidebar-ads" />
+             <img src={Advertisement} className="sidebar-ads" alt='' />
               <div className="sidebar-title">
                 <h4>Conversation</h4>
                 <a href={"#container"}>Hide Chat</a>

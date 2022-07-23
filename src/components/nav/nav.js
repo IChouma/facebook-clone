@@ -21,7 +21,7 @@ class  Nav extends Component {
     const dark=document.querySelector('#dark-btn')
     dark.classList.toggle('dark-btn-on')
     document.body.classList.toggle('dark-theme')
-      if (localStorage.getItem("theme")=='light'){
+      if (localStorage.getItem("theme")==='light'){
       localStorage.setItem("theme","dark")
     }else{
       localStorage.setItem("theme","light")
@@ -40,7 +40,7 @@ class  Nav extends Component {
     <Fragment>
    <nav id='nav'>
       <div className='nav-left'>
-        <img src={logo} className='logo'></img>
+        <img src={logo} className='logo' alt=""></img>
         <ul>
           <li><img src={notification} alt=""/></li>
           <li><img src={inbox} alt=""/></li>
@@ -49,7 +49,7 @@ class  Nav extends Component {
       </div>
       <div className='nav-right'>
         <div className='search-box'>
-          <img src={search} ></img>
+          <img src={search} alt="" ></img>
           <input type='text' placeholder='Search'></input>
         </div>
         <div className='nav-user-icon online' onClick={this.handlclick.bind(this)} >

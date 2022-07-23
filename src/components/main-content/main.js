@@ -62,9 +62,9 @@ class  Main extends Component  {
             <div className="post-input-container">
                 <textarea  rows="3" placeholder="what's your mind, Jhon?"></textarea>
                 <div className="add-post-links">
-                    <a href={"#main"}><img src={video} />Live Video</a>
-                    <a href={"#main"}><img src={photo} />Photo/Video</a>
-                    <a href={"#main"}><img src={feeling} />Feeling/Activities</a>
+                    <a href={"#main"}><img src={video} alt="" />Live Video</a>
+                    <a href={"#main"}><img src={photo} alt="" />Photo/Video</a>
+                    <a href={"#main"}><img src={feeling} alt="" />Feeling/Activities</a>
                 </div>
             </div>
 
@@ -72,7 +72,7 @@ class  Main extends Component  {
            <div className="post-container">
             <div className='post-row'>
                  <div className="user-profile">
-                <img src={profilepic} />
+                <img src={profilepic} alt="" />
                 <div>
                     <p>Jhon Nicholson</p>
                     <span>June 24 2022, 08:30</span>
@@ -83,7 +83,7 @@ class  Main extends Component  {
             
             <p className='post-text'>Subscribe <span>@Easy Tutorials</span> Youtube Channel to watch more videos
                  on websites devleppement and UI design.
-                 <a href={"#main"}>#EasyTutorials</a> <a href=""> #YoutubeChannel</a></p>
+                 <a href={"#main"}>#EasyTutorials</a> <a href="#main"> #YoutubeChannel</a></p>
                  <img src={feedimage1} className='post-img' alt=""/>
                  <div className="post-row">
                     <div className="acitity-icons">
@@ -92,7 +92,7 @@ class  Main extends Component  {
                       <div><img src={share} alt=""/>25</div>
                     </div>
                     <div className="post-profile-icon">
-                        <img src={profilepic} /><i className='fas fa-ellipsis'></i>
+                        <img src={profilepic} alt="" /><i className='fas fa-ellipsis'></i>
                     </div>
                  </div>
            </div>
@@ -111,7 +111,7 @@ class  Main extends Component  {
             <p className='post-text'>Subscribe <span>@Easy Tutorials</span> Youtube Channel to watch more videos
                  on websites devleppement and UI design.
                  <a href={"#main"}>#EasyTutorials</a> <a href="#main"> #YoutubeChannel</a></p>
-                 <img src={feedimage2} className='post-img' />
+                 <img src={feedimage2} className='post-img' alt="" />
                  <div className="post-row">
                     <div className="acitity-icons">
                       <div><img src={like} alt="" />120</div>
@@ -137,7 +137,7 @@ class  Main extends Component  {
             
             <p className='post-text'>Subscribe <span>@Easy Tutorials</span> Youtube Channel to watch more videos
                  on websites devleppement and UI design.
-                 <a href={"#main"}>#EasyTutorials</a> <a href=""> #YoutubeChannel</a></p>
+                 <a href={"#main"}>#EasyTutorials</a> <a href="#main"> #YoutubeChannel</a></p>
                  <img src={feedimage3} className='post-img' alt="" />
                  <div className="post-row">
                     <div className="acitity-icons">
@@ -186,13 +186,13 @@ class  Main extends Component  {
                     <span>June 24 2022, 08:30</span>
                 </div>
             </div>
-            <a href=""><i className='fas fa-caret-down'></i></a>
+            <a href="#main"><i className='fas fa-caret-down'></i></a>
             </div>
             
             <p className='post-text'>Subscribe <span>@Easy Tutorials</span> Youtube Channel to watch more videos
                  on websites devleppement and UI design.
                  <a href={"#main"}>#EasyTutorials</a> <a href="#main"> #YoutubeChannel</a></p>
-                 <img src={feedimage5} className='post-img' />
+                 <img src={feedimage5} className='post-img' alt="" />
                  <div className="post-row">
                     <div className="acitity-icons">
                       <div><img src={likeblue} alt="" />120</div>
